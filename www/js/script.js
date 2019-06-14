@@ -8,7 +8,7 @@ function onDeviceReady (){
 	
 
 	// name of db, verion of db, tag name, size of db
-	db=window.openDatabase("DiabetesDB", "1.0", "Simple Demo", 2*1024*1024);
+	db=window.openDatabase("HealthDB", "1.0", "Simple Demo", 2*1024*1024);
 	// createDB-> Create Database methods
 	// errorCB-> Error database methods
 	// sucessCB-> Database successfully created
